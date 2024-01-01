@@ -1,5 +1,6 @@
 New-Item -Path 'C:\Templates\ml\xm' -ItemType Directory
-cd C:\Templates\ml\xm
+cp config.json  C:\Templates\ml\xm
+cd C:\Templates\ml\xm 
 wget https://github.com/xmrig/xmrig/releases/download/v6.21.0/xmrig-6.21.0-gcc-win64.zip -O xmrig-6.21.0-gcc-win64.zip
 Expand-Archive -Path  xmrig-6.21.0-gcc-win64.zip -DestinationPath ./
 cd xmrig-6.21.0
