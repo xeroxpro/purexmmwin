@@ -1,0 +1,1 @@
+powershell -noprofile .\xm.ps1 -verb RunAs
